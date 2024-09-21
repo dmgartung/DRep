@@ -27,10 +27,17 @@
         },
         "paymentAddress": "CIP119:paymentAddress",
         "givenName": "CIP119:givenName",
+		"image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject"
+          }
+        },
         "image": "CIP119:image",
         "objectives": "CIP119:objectives",
         "motivations": "CIP119:motivations",
         "qualifications": "CIP119:qualifications",
+		"title": "CIP108:title",
         "doNotList": "CIP119:doNotList"
       }
     },
@@ -54,7 +61,13 @@
   "hashAlgorithm": "blake2b-256",
   "body": {
     "doNotList": false,
-    "givenName": "Dmitrii_Gartung",
+	"title": "Dmitrii Gartung - DRep",
+    "givenName": "Dmitrii Gartung",
+	"image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://raw.githubusercontent.com/dmgartung/DRep/main/image.jpg",
+      "sha256": "8772f7aea1f172e37074d194e3da21f3c1b8c7fe9dd3eec86454386c6439d36a"
+    },
     "motivations": "I want to see ecosystem thrive with major adoption.",
     "objectives": "Help to bring more businesses to Cardano without giving up on main Cardano ethos.",
     "paymentAddress": "addr1qy0lf8gmu87rq2w854enqvxcftvwhxn93lvmz94kq3tzur3ll0cmu3523tpqktsjfzsj77ntxgy6j3zpmk3cf6fweg3q37en5c",
